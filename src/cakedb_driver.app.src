@@ -1,0 +1,12 @@
+{application, cakedb_driver,
+ [
+  {description, "CakeDB Driver"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cakedb_driver_app, []}},
+  {env, []}
+ ]}.
